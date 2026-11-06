@@ -10,10 +10,9 @@
     "test": "node --import ./src/lib/__tests__/ts-resolver.mjs --test 'src/lib/__tests__/*.test.ts' 'src/lib/__tests__/*.test.mjs'"
   },
   "dependencies": {
-    "@svgr/webpack": "^8.1.0",
     "clsx": "^2.1.1",
     "lucide-react": "^1.43.0",
-    "next": "16.3.4",
+    "next": "16.4.5",
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "react-icons": "^5.7.0",
@@ -27,8 +26,20 @@
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
-    "eslint-config-next": "16.3.4",
+    "eslint-config-next": "16.4.5",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "@svgr/core": "8.1.0",
+    "@svgr/plugin-jsx": "8.1.0",
+    "@babel/core": "^7.29.13",
+    "@babel/plugin-transform-react-jsx": "^7.29.7"
+  },
+  "overrides": {
+    "@typescript-eslint/typescript-estree": {
+      "minimatch": "^11.0.5"
+    }
+  },
+  "engines": {
+    "node": "24.x"
   }
 }

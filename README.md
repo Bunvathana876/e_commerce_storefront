@@ -1,12 +1,12 @@
 # Blue Panda Storefront 🐼🛍️
 
-[![Next.js](https://img.shields.io/badge/Next.js-16.3.4-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-16.4.5-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.2.8-blue?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![Zustand](https://img.shields.io/badge/State-Zustand_5-443e38?style=for-the-badge)](https://github.com/pmndrs/zustand)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![Tests](https://img.shields.io/badge/Tests-28%2F28%20Passing-success?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Tests](https://img.shields.io/badge/Tests-31%2F31%20Passing-success?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 **Blue Panda Storefront** is a modern, high-performance customer-facing e-commerce application. Engineered with **Next.js 16 (App Router)**, **React 19**, **TypeScript**, and **Tailwind CSS v4**, it delivers a seamless, lightning-fast shopping experience backed by robust session isolation, server-validated checkout security, and a responsive mobile-first UI.
@@ -185,6 +185,10 @@ NEXT_PUBLIC_API_URL=http://localhost:8000/api
 # URL for the Blue Panda Admin & Seller Management Portal
 NEXT_PUBLIC_MANAGEMENT_URL=http://localhost:3001
 ```
+
+For the hosted student demonstration, see [Vercel deployment](DEPLOYMENT.md).
+The committed `.env.example` uses the live Render API and disables demo coupons;
+keep local overrides and credentials in the ignored `.env.local` file.
 
 ### Running Development Server
 
